@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>HMGS Planner – HMGS çalışma planı, Pomodoro ve yanlış defteri</title>
 <meta name="description" content="Hukuk Mesleklerine Giriş Sınavı'na (HMGS) hazırlananlar için kişisel çalışma planı, Pomodoro, yanlış defteri, deneme analizi ve akıllı tekrar hatırlatmaları. Hesap yok, reklam yok.">
+<meta name="theme-color" content="#0E1626">
 <meta property="og:title" content="HMGS Planner">
 <meta property="og:description" content="HMGS'ye planlı hazırlan: kişisel plan, Pomodoro, yanlış defteri ve deneme analizi.">
 <meta property="og:image" content="https://zeynalkarabulut.com/assets/hmgs-planner/icon.png">
@@ -12,73 +13,140 @@
 <link rel="canonical" href="https://zeynalkarabulut.com/hmgs-planner/">
 <link rel="apple-touch-icon" href="/assets/hmgs-planner/apple-touch-icon.png">
 <link rel="stylesheet" href="/assets/style.css">
+<script>document.documentElement.classList.add('js')</script>
+<script src="/assets/site.js" defer></script>
 </head>
 <body>
-<header class="wrap nav">
-  <a class="brand" href="/"><span class="mono">ZK</span><span>Zeynal Karabulut</span></a>
-  <ul>
-    <li><a href="/#projeler" aria-current="page">Projeler</a></li>
-    <li><a href="#destek">Destek</a></li>
-    <li><a href="/hmgs-planner/gizlilik.html">Gizlilik</a></li>
-  </ul>
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="/"><span class="mark">ZK</span>Zeynal Karabulut</a>
+    <ul>
+      <li><a href="#ozellikler">Özellikler</a></li>
+      <li><a href="#sss">SSS</a></li>
+      <li><a class="cta" href="#destek">Destek</a></li>
+    </ul>
+  </div>
 </header>
 
-<main class="wrap">
+<main>
   <div class="app-hero">
-    <img src="/assets/hmgs-planner/icon.png" alt="HMGS Planner simgesi" width="120" height="120">
-    <div>
-      <h1>HMGS Planner</h1>
-      <p>Hukuk Mesleklerine Giriş Sınavı'na hazırlanırken "bugün ne çalışmalıyım?" sorusunu bitiren çalışma planlayıcısı. Plan, odak, yanlış defteri ve deneme analizi tek uygulamada.</p>
-      <p class="meta">iPhone · iOS 17 ve üzeri · Ücretsiz, isteğe bağlı tek seferlik Pro</p>
-      <!-- App Store'da yayınlanınca: <a class="btn" href="https://apps.apple.com/tr/app/idAPP_STORE_ID">App Store'dan indir</a> -->
-      <span class="btn" aria-disabled="true">Çok yakında App Store'da</span>
+    <div class="wrap">
+      <div class="copy">
+        <div class="app-id reveal">
+          <img src="/assets/hmgs-planner/icon.png" alt="HMGS Planner simgesi" width="76" height="76">
+          <div><b>HMGS Planner</b><small>iPhone · iOS 17+ · Eğitim</small></div>
+        </div>
+        <p class="kicker reveal" style="margin-top:4px">Hukuk Mesleklerine Giriş Sınavı</p>
+        <h1 class="reveal">HMGS hazırlığın için kişisel çalışma planı</h1>
+        <p class="lead reveal">Sınav tarihine göre kişisel çalışma planı, Pomodoro ile odak, yanlış defteri ve deneme analizi. Hesap açmadan, reklamsız; verilerin yalnızca telefonunda.</p>
+        <div class="row reveal">
+          <!-- Yayınlanınca: <a class="btn light" href="https://apps.apple.com/tr/app/idAPP_STORE_ID">App Store'dan indir</a> -->
+          <span class="btn light" aria-disabled="true">Çok yakında App Store'da</span>
+          <a class="btn" href="#destek">Destek</a>
+        </div>
+        <p class="meta reveal">Ücretsiz · İsteğe bağlı tek seferlik Pro</p>
+      </div>
+      <div class="phones reveal" aria-hidden="true">
+        <div class="phone p1"><img src="/assets/hmgs-planner/study.jpg" alt=""></div>
+        <div class="phone p2"><img src="/assets/hmgs-planner/home.jpg" alt=""></div>
+      </div>
     </div>
   </div>
 
-  <section>
-    <div class="shots">
-      <img src="/assets/hmgs-planner/home.jpg" alt="Bugün ekranı: sınava kalan gün ve günün görevleri" loading="lazy">
-      <img src="/assets/hmgs-planner/plan.jpg" alt="Haftalık çalışma planı" loading="lazy">
-      <img src="/assets/hmgs-planner/study.jpg" alt="Çalış ekranı: dersler, yanlış defteri ve denemeler" loading="lazy">
-      <img src="/assets/hmgs-planner/progress.jpg" alt="Gelişim ekranı: istatistikler ve odaklanılması gereken dersler" loading="lazy">
+  <section id="ozellikler">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="kicker">Özellikler</p>
+        <h2>Hazırlığın her adımı tek uygulamada</h2>
+        <p>Plan yapmakla vakit kaybetme; uygulama sınav tarihine ve derslerine göre her günü senin için düzenler.</p>
+      </div>
+      <div class="features reveal">
+        <div class="feat">
+          <div class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></div>
+          <h3>Kişisel çalışma planı</h3>
+          <p>Sınav tarihine, günlük süreye ve güçlü/zayıf derslerine göre her güne görevler. Kaçırılanlar kendiliğinden ileri taşınır.</p>
+        </div>
+        <div class="feat">
+          <div class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2.5 2.5M9 2h6"/></svg></div>
+          <h3>Pomodoro ve odak</h3>
+          <p>25/5 Pomodoro veya serbest sayaç. Kilit ekranında ve Dynamic Island'da canlı sayaç, odaklandıkça büyüyen ağaç.</p>
+        </div>
+        <div class="feat">
+          <div class="ico"><svg viewBox="0 0 24 24"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2V5z"/><path d="M4 19a2 2 0 0 0 2 2h13M9 8h6"/></svg></div>
+          <h3>Yanlış defteri</h3>
+          <p>Yanlış soruların fotoğrafı, nedeni, doğru cevabı ve mevzuat bağlantısıyla. Tekrar günü gelenler hatırlatılır.</p>
+        </div>
+        <div class="feat">
+          <div class="ico"><svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></div>
+          <h3>Deneme analizi</h3>
+          <p>Hızlı deneme girişi, ders bazında sonuçlar, doğru trendi ve en çok puan kaybettiğin üç ders.</p>
+        </div>
+        <div class="feat">
+          <div class="ico"><svg viewBox="0 0 24 24"><path d="M3 12a9 9 0 0 1 15.5-6.2L21 8M21 3v5h-5M21 12a9 9 0 0 1-15.5 6.2L3 16M3 21v-5h5"/></svg></div>
+          <h3>Akıllı tekrar</h3>
+          <p>Konular için aralıklı tekrar takvimi ve sabah tek bildirimle günün özeti.</p>
+        </div>
+        <div class="feat">
+          <div class="ico"><svg viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="11" rx="3"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></div>
+          <h3>Gizlilik</h3>
+          <p>Hesap yok, reklam yok, takip yok. Tüm verilerin yalnızca cihazında saklanır.</p>
+        </div>
+      </div>
     </div>
   </section>
 
-  <section>
-    <h2 class="section-title">Neler yapabilirsin?</h2>
-    <div class="features">
-      <div class="feature"><h3>📅 Kişisel çalışma planı</h3><p>Sınav tarihine, günlük çalışma süresine ve güçlü/zayıf derslerine göre her güne görevler. Kaçırılan görevler kendiliğinden ileri taşınır.</p></div>
-      <div class="feature"><h3>⏱️ Pomodoro ve odak</h3><p>25/5 Pomodoro veya serbest sayaç. Kilit ekranında ve Dynamic Island'da canlı sayaç; odaklandıkça büyüyen ağaç.</p></div>
-      <div class="feature"><h3>📕 Yanlış defteri</h3><p>Yanlış soruların fotoğrafı, nedeni, doğru cevabı ve mevzuat bağlantısıyla. Tekrar günü gelen yanlışlar hatırlatılır.</p></div>
-      <div class="feature"><h3>📈 Deneme analizi</h3><p>Hızlı deneme girişi, ders bazında sonuçlar, doğru trendi ve en çok puan kaybettiğin 3 ders.</p></div>
-      <div class="feature"><h3>🔁 Akıllı tekrar</h3><p>Konular için aralıklı tekrar takvimi ve sabah tek bildirimle günün özeti.</p></div>
-      <div class="feature"><h3>🔒 Gizlilik</h3><p>Hesap yok, reklam yok, takip yok. Tüm verilerin yalnızca cihazında saklanır.</p></div>
+  <section style="padding-top:0">
+    <div class="wrap">
+      <div class="gallery reveal">
+        <figure><div class="phone"><img src="/assets/hmgs-planner/home.jpg" alt="Bugün ekranı" loading="lazy"></div><figcaption><b>Bugün</b>Sınava kalan gün ve günün görevleri</figcaption></figure>
+        <figure><div class="phone"><img src="/assets/hmgs-planner/plan.jpg" alt="Plan ekranı" loading="lazy"></div><figcaption><b>Plan</b>Haftalık kişisel program</figcaption></figure>
+        <figure><div class="phone"><img src="/assets/hmgs-planner/study.jpg" alt="Çalış ekranı" loading="lazy"></div><figcaption><b>Çalış</b>Dersler, yanlış defteri, denemeler</figcaption></figure>
+        <figure><div class="phone"><img src="/assets/hmgs-planner/progress.jpg" alt="Gelişim ekranı" loading="lazy"></div><figcaption><b>Gelişim</b>İstatistikler ve zayıf dersler</figcaption></figure>
+      </div>
     </div>
   </section>
 
-  <section class="faq">
-    <h2 class="section-title">Sık sorulanlar</h2>
-    <details><summary>Ücretli mi?</summary><p>Planlama, Pomodoro, yanlış defteri, denemeler ve istatistikler ücretsiz ve sınırsızdır. İsteğe bağlı, tek seferlik HMGS Planner Pro ek renk temaları ve paylaşım kartı stilleri ekler.</p></details>
-    <details><summary>Pro satın alımımı nasıl geri yüklerim?</summary><p>Uygulamada Profil › HMGS Planner Pro › "Satın alımları geri yükle". Aynı Apple Kimliği ile giriş yapmış olman yeterli.</p></details>
-    <details><summary>Ders ve konu listesi nereden geliyor?</summary><p>Ders listesi ve soru dağılımı ilgili yönetmelik ve ÖSYM kılavuzuna göre hazırlanmıştır; kaynaklar uygulamada Profil › Hakkında ve destek › Kaynaklar bölümünde yer alır. Kesin bilgi için ÖSYM duyurularını takip et.</p></details>
-    <details><summary>Telefonumu değiştirirsem verilerim ne olur?</summary><p>Profil › Ayarlar › Yedek bölümünden yedeği iCloud Drive'daki bir klasöre aldırabilir, yeni telefonda "Yedekten Geri Yükle" ile geri getirebilirsin. iPhone'un iCloud Yedeklemesi de uygulama verilerini kapsar.</p></details>
-    <details><summary>Bildirimler gelmiyor, ne yapmalıyım?</summary><p>iPhone Ayarlar › Bildirimler › HMGS Planner'dan bildirimlere izin verildiğini kontrol et. Ardından uygulamada Profil › Bildirimler'den hatırlatma saatlerini seç.</p></details>
-    <details><summary>ÖSYM ile bağlantınız var mı?</summary><p>Hayır. HMGS Planner bağımsız bir çalışma aracıdır; ÖSYM veya Adalet Bakanlığı ile bağlantılı değildir.</p></details>
+  <div class="wrap"><hr class="rule"></div>
+
+  <section id="sss">
+    <div class="wrap narrow" style="width:min(820px,100% - 40px)">
+      <div class="section-head reveal">
+        <p class="kicker">Sık sorulanlar</p>
+        <h2>Merak edilenler</h2>
+      </div>
+      <div class="faq reveal">
+        <details><summary>Ücretli mi?</summary><p>Planlama, Pomodoro, yanlış defteri, denemeler ve istatistikler ücretsiz ve sınırsızdır. İsteğe bağlı, tek seferlik HMGS Planner Pro ek renk temaları ve paylaşım kartı stilleri ekler.</p></details>
+        <details><summary>Pro satın alımımı nasıl geri yüklerim?</summary><p>Uygulamada Profil › HMGS Planner Pro › "Satın alımları geri yükle". Aynı Apple Kimliği ile giriş yapmış olman yeterli.</p></details>
+        <details><summary>Ders ve konu listesi nereden geliyor?</summary><p>Ders listesi ve soru dağılımı ilgili yönetmelik ve ÖSYM kılavuzuna göre hazırlanmıştır; kaynaklar uygulamada Profil › Hakkında ve destek › Kaynaklar bölümünde yer alır. Kesin bilgi için ÖSYM duyurularını takip et.</p></details>
+        <details><summary>Telefonumu değiştirirsem verilerim ne olur?</summary><p>Profil › Ayarlar › Yedek bölümünden yedeği iCloud Drive'daki bir klasöre aldırabilir, yeni telefonda "Yedekten Geri Yükle" ile geri getirebilirsin. iPhone'un iCloud Yedeklemesi de uygulama verilerini kapsar.</p></details>
+        <details><summary>Bildirimler gelmiyor, ne yapmalıyım?</summary><p>iPhone Ayarlar › Bildirimler › HMGS Planner'dan bildirimlere izin verildiğini kontrol et. Ardından uygulamada Profil › Bildirimler'den hatırlatma saatlerini seç.</p></details>
+        <details><summary>ÖSYM ile bağlantınız var mı?</summary><p>Hayır. HMGS Planner bağımsız bir çalışma aracıdır; ÖSYM veya Adalet Bakanlığı ile bağlantılı değildir.</p></details>
+      </div>
+    </div>
   </section>
 
-  <section id="destek">
-    <div class="support">
-      <h2>Destek</h2>
-      <p>Bir hata mı buldun, bir önerin mi var? Bana e-postayla ulaşabilirsin; genellikle birkaç gün içinde dönüş yaparım. Hata bildirirken iPhone modelini ve uygulama sürümünü (Profil › Hakkında ve destek) yazman çok yardımcı olur.</p>
-      <a class="btn primary" href="mailto:karabulut.zeynal@hotmail.com?subject=HMGS%20Planner%20destek">karabulut.zeynal@hotmail.com</a>
+  <section id="destek" style="padding-top:0">
+    <div class="wrap">
+      <div class="support-card reveal">
+        <div>
+          <p class="kicker">Destek</p>
+          <h2>Bir sorun mu var?</h2>
+          <p>Hata bildirmek ya da öneride bulunmak için bana e-posta at. iPhone modelini ve uygulama sürümünü (Profil › Hakkında ve destek) yazman çok yardımcı olur.</p>
+        </div>
+        <div class="side">
+          <a class="btn solid" href="mailto:karabulut.zeynal@hotmail.com?subject=HMGS%20Planner%20destek">E-posta gönder</a>
+          <small>karabulut.zeynal@hotmail.com</small>
+          <a class="btn" href="/hmgs-planner/gizlilik.html">Gizlilik Politikası</a>
+        </div>
+      </div>
     </div>
   </section>
 </main>
 
 <footer>
   <div class="wrap">
-    <span>© 2026 Zeynal Karabulut · HMGS Planner, ÖSYM veya Adalet Bakanlığı ile bağlantılı değildir.</span>
-    <span><a href="/">Ana sayfa</a> · <a href="/hmgs-planner/gizlilik.html">Gizlilik Politikası</a></span>
+    <span>© <span id="year">2026</span> Zeynal Karabulut · ÖSYM veya Adalet Bakanlığı ile bağlantılı değildir.</span>
+    <nav><a href="/">Ana sayfa</a><a href="/hmgs-planner/gizlilik.html">Gizlilik</a><a href="mailto:karabulut.zeynal@hotmail.com">E-posta</a></nav>
   </div>
 </footer>
 </body>
